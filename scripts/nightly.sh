@@ -21,7 +21,7 @@ OCAML_412_STOCK=$(get_latest_commit "git ls-remote $OCAML_412_STOCK")
 #check if sandmark and sandmark-nightly repo exist in the default or custom SANDMARK_NIGHTLY_DIR
 function check_sandmark_subdir {
 	if [ ! -d $1/sandmark-nightly ]; then
-		git clone https://$TOKEN@github.com/shubhamkumar13/sandmark-nightly.git $1/sandmark-nightly
+		git clone https://$TOKEN@github.com/ocaml-bench/sandmark-nightly.git $1/sandmark-nightly
 	fi;
 	if [ ! -d $1/sandmark ]; then
 		git clone https://github.com/ocaml-bench/sandmark.git $1/sandmark

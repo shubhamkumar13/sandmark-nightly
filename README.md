@@ -1,3 +1,5 @@
+**sandmark-nightly is been added to ocaml-bench and future developments would continue [here](https://github.com/ocaml-bench/sandmark-nightly)**
+
 # sandmark-nightly
 Stores nightly runs of sandmark
 
